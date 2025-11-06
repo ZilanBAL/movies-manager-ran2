@@ -19,13 +19,13 @@ while True:
         case "1":
             add_movie()
         case "2":
-            list_movies
+            list_movies()
         case "3":
-            delete_movie
+            delete_movie()
         case "4":
-            search_movies    
+            search_movies()  
         case "5":
-            mark_as_seen
+            mark_as_seen()
         case "6":
             print("Au revoir!")
             confirm=input("Voulez-vous vraiment quitter le programme? [o/N]").strip().lower()=="o"
